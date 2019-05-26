@@ -38,3 +38,5 @@ sudo ufw status
 
 Step 7 - GitLab Post-Installation:
 type the URL in your browser"gitacirrustech.clear27.com"
+
+https://www.howtoforge.com/tutorial/how-to-install-and-configure-gitlab-on-ubuntu-1804/
