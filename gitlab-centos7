@@ -1,0 +1,11 @@
+GitLab installation on Centos 7
+ yum install postfix
+ systemctl start postfix
+ systemctl enable postfix
+ systemctl status postfix
+ ycurl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.rpm.sh | sudo bash
+ EXTERNAL_URL="http://gitlab.acirrustech" yum install -y gitlab-ce
+ gitlab-ctl reconfigure
+ #firewall-cmd --permanent --add-service=80/tcp
+ #firewall-cmd --permanent --add-service=443/tcp
+ #systemctl reload firewalld
